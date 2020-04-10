@@ -13,3 +13,5 @@ deploy:
   app: your-heroku-app-express
   on:
     repo: JordisGithub/mongodb-mongoose-express-ci
+    run:
+      - "node seed/userProjects.js"
